@@ -29,8 +29,9 @@ public class TwoSum2 {
             if(numbers[start] + numbers[end] == target) {
                 arr[0] = start+1;
                 arr[1] = end+1;
-                start++;
-                end--;
+//                start++;
+//                end--;
+                break;
             } else if (numbers[start] + numbers[end] > target) {
                 end--;
             } else {
