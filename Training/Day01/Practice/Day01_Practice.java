@@ -17,9 +17,14 @@ public class Day01_Practice {
     // Q2 — Array ka Sum aur Average nikalo
     // Input:  {10, 20, 30, 40, 50}
     // Output: Sum = 150, Average = 30.0
-    // Time: O(__)  Space: O(__)
+    // Time: O(N)  Space: O(1)  [SOLVED]
     public static void sumAndAverage(int[] arr) {
-
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            sum = sum + arr[i];
+        }
+        double average = (double) sum / arr.length;
+        System.out.println("Sum = " + sum + " Average = " + average);
     }
 
     // Q3 — Reverse Array In-Place

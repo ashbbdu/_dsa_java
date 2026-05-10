@@ -18,7 +18,7 @@
 | # | Problem          | Status | Time  | Space | Notes |
 |---|------------------|--------|-------|-------|-------|
 | 1 | Find Max         | [x]    | O(N)  | O(1)  | Integer.MIN_VALUE se initialize kiya |
-| 2 | Sum & Average    | [ ]    |       |       |       |
+| 2 | Sum & Average    | [x]    | O(N)  | O(1)  | double cast zaroori tha average ke liye |
 | 3 | Reverse Array    | [ ]    |       |       |       |
 | 4 | Complexity Q&A   | [ ]    | —     | —     |       |
 
