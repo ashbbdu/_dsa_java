@@ -46,22 +46,22 @@ public class Day01_Practice {
         }
     }
 
-    // Q4 — Complexity Analysis — sirf answer comments mein likho
+    // Q4 — Complexity Analysis  [SOLVED]
     //
     // Code A:
     //   for (int i = 0; i < n; i++)
     //     for (int j = i; j < n; j++)
     //       System.out.println(arr[i] + arr[j]);
-    // Time: O(__) — Why: ______________________
+    // Time: O(N²) — Why: nested loop, outer n times, inner n-i times → n(n+1)/2 ≈ O(N²)
     //
     // Code B:
     //   int x = arr[0] + arr[arr.length - 1];
-    // Time: O(__) — Why: ______________________
+    // Time: O(1) — Why: direct index access, no loop
     //
     // Code C:
     //   for (int i = 0; i < n; i++) print(arr[i]);
     //   for (int j = 0; j < n; j++) print(arr[j]);
-    // Time: O(__) — Why: ______________________
+    // Time: O(N) — Why: O(N) + O(N) = O(2N) = O(N), constants drop ho jaate hain
 
     public static void main(String[] args) {
         // Q1

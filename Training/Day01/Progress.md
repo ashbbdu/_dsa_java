@@ -20,7 +20,7 @@
 | 1 | Find Max         | [x]    | O(N)  | O(1)  | Integer.MIN_VALUE se initialize kiya |
 | 2 | Sum & Average    | [x]    | O(N)  | O(1)  | double cast zaroori tha average ke liye |
 | 3 | Reverse Array    | [x]    | O(N)  | O(1)  | TC O(log n) socha tha, sahi O(n) hai |
-| 4 | Complexity Q&A   | [ ]    | —     | —     |       |
+| 4 | Complexity Q&A   | [x]    | —     | —     | Teeno correct |
 
 ---
 
