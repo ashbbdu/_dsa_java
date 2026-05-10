@@ -72,5 +72,22 @@ public class Concepts {
 
         l.set(0 , 5); // updated the index with new value
         System.out.println(l);
+
+        l.remove(1); // removes the element at index 1 // removed 2
+        System.out.println(l);
+
+        l.remove(Integer.valueOf(4));
+        System.out.println(l);
+
+        for (int x : l) {
+            System.out.println(x);
+        }
+
+//      convert Array into ArrayList
+        Integer [] al = {1,2,3,4};
+        ArrayList<Integer> list = new ArrayList<>(Arrays.asList(al));
+        System.out.println(list);
+
+        System.out.println(list.size());
     }
 }

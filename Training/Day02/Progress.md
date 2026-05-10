@@ -7,10 +7,10 @@
 
 ## Concepts Coverage
 
-- [ ] String basics — charAt, substring, equals, split, toCharArray
-- [ ] String immutability — kyun important hai
-- [ ] StringBuilder — append, reverse, toString
-- [ ] ArrayList — add, get, set, remove, size, contains
+- [x] String basics — charAt, substring, equals, split, toCharArray
+- [x] String immutability — kyun important hai
+- [x] StringBuilder — append, reverse, toString
+- [x] ArrayList — add, get, set, remove, size, contains
 
 ---
 
