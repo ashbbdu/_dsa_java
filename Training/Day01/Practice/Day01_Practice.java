@@ -20,11 +20,12 @@ public class Day01_Practice {
     // Time: O(N)  Space: O(1)  [SOLVED]
     public static void sumAndAverage(int[] arr) {
         int sum = 0;
+        double average = 0;
         for (int i = 0; i < arr.length; i++) {
             sum = sum + arr[i];
         }
-        double average = (double) sum / arr.length;
-        System.out.println("Sum = " + sum + " Average = " + average);
+        average = (double) sum / arr.length;
+        System.out.println("Sum = " + sum + " " + "Average = " + average);
     }
 
     // Q3 — Reverse Array In-Place
