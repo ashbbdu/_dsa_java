@@ -1,6 +1,8 @@
 package Basics.Arrrays;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Concepts {
     public static void main(String[] args) {
@@ -30,5 +32,45 @@ public class Concepts {
         char [] cArray = s.toCharArray();
         System.out.println(Arrays.toString(cArray));
 
+//        String Builder
+
+//        This will take big O of n square , because String is immutable , so use String Builder instead which will take O(N) time complexity
+        String result = "";
+        for(int i = 0 ;i < 1000 ; i++) {
+            result += 'a';
+        }
+
+        System.out.println(result);
+
+
+        System.out.println();
+
+        // GOOD — O(n) — ek hi object modify hota rehta hai
+        StringBuilder sBuilder = new StringBuilder();
+        for(int i = 0 ;i < 1000 ; i++) {
+            sBuilder.append("a");
+        }
+
+        System.out.println(sBuilder.toString());
+
+        System.out.println();
+        StringBuilder greet = new StringBuilder();
+        greet.append("World");
+        greet.append("hello");
+        greet.insert(1 , "there");
+        System.out.println(greet.toString());
+
+        System.out.println(greet.length());
+
+//      Array ki size fixed hoti hai. ArrayList automatically grow hoti hai.
+        ArrayList<Integer> l = new ArrayList<>();
+        l.add(1);
+        l.add(2);
+        l.add(3);
+        l.add(4);
+        l.add(2 , 10);
+
+        l.set(0 , 5); // updated the index with new value
+        System.out.println(l);
     }
 }
