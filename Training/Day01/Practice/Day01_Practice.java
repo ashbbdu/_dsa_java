@@ -32,9 +32,18 @@ public class Day01_Practice {
     // Input:  {1, 2, 3, 4, 5}
     // Output: {5, 4, 3, 2, 1}
     // Constraint: Extra array use mat karo — O(1) space mein karo
-    // Time: O(__)  Space: O(1)
+    // Time: O(N)  Space: O(1)  [SOLVED]
     public static void reverse(int[] arr) {
-
+        int start = 0;
+        int end = arr.length - 1;
+        int temp;
+        while (start < end) {
+            temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+            start++;
+            end--;
+        }
     }
 
     // Q4 — Complexity Analysis — sirf answer comments mein likho
