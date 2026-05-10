@@ -1,5 +1,7 @@
 package Basics.Arrrays;
 
+import java.util.Arrays;
+
 public class Concepts {
     public static void main(String[] args) {
 //    Array Strings
@@ -16,6 +18,17 @@ public class Concepts {
         String b = "abc";
         System.out.println(a == b);
         System.out.println(a.equals(b));
+
+        System.out.println(s.toLowerCase());
+        System.out.println(s.toUpperCase());
+
+        String ash = "a,b,c,d";
+        String [] c = ash.split(",");
+        System.out.println(Arrays.toString(c));
+
+
+        char [] cArray = s.toCharArray();
+        System.out.println(Arrays.toString(cArray));
 
     }
 }
