@@ -41,11 +41,18 @@ public class Day02_Practice {
     // Q3 — Check if String is Palindrome
     // Input:  "racecar" → true
     // Input:  "hello"   → false
-    // Constraint: Extra string/array mat banao — O(1) space
-    // Hint: Day 1 ka two-pointer yaad hai?
-    // Time: O(__)  Space: O(1)
+    // Time: O(N)  Space: O(1)  [SOLVED]
     public static boolean isPalindrome(String s) {
-        return false;
+        int start = 0;
+        int end = s.length() - 1;
+        while (start < end) {
+            if (s.charAt(start) != s.charAt(end)) {
+                return false;
+            }
+            start++;
+            end--;
+        }
+        return true;
     }
 
     // Q4 — ArrayList Operations

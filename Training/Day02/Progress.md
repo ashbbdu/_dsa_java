@@ -20,7 +20,7 @@
 |---|----------------------|--------|-------|-------|-------|
 | 1 | Reverse String       | [x]    | O(N)  | O(N)  | 2 approaches — StringBuilder + Two Pointer |
 | 2 | Count Vowels         | [ ]    |       |       |       |
-| 3 | Is Palindrome        | [ ]    |       |       |       |
+| 3 | Is Palindrome        | [x]    | O(N)  | O(1)  | Day 1 two-pointer same logic |
 | 4 | ArrayList Operations | [ ]    | —     | —     |       |
 
 ---
