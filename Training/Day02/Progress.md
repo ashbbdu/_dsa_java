@@ -18,7 +18,7 @@
 
 | # | Problem              | Status | Time  | Space | Notes |
 |---|----------------------|--------|-------|-------|-------|
-| 1 | Reverse String       | [ ]    |       |       |       |
+| 1 | Reverse String       | [x]    | O(N)  | O(N)  | 2 approaches — StringBuilder + Two Pointer |
 | 2 | Count Vowels         | [ ]    |       |       |       |
 | 3 | Is Palindrome        | [ ]    |       |       |       |
 | 4 | ArrayList Operations | [ ]    | —     | —     |       |

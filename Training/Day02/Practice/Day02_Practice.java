@@ -5,10 +5,29 @@ public class Day02_Practice {
     // Q1 — Reverse a String
     // Input:  "hello"
     // Output: "olleh"
-    // Constraint: StringBuilder use karo
-    // Time: O(__)  Space: O(__)
-    public static String reverseString(String s) {
-        return "";
+    // Time: O(N)  Space: O(N)  [SOLVED]
+
+    // Approach 1 — StringBuilder (peeche se iterate)
+    public static String reverseStringUsingStringBuilder(String s) {
+        StringBuilder st = new StringBuilder();
+        for (int i = s.length() - 1; i >= 0; i--) {
+            st.append(s.charAt(i));
+        }
+        return st.toString();
+    }
+
+    // Approach 2 — Two Pointer
+    public static String reverseStringTwoPointer(String s) {
+        char[] chars = s.toCharArray();
+        int left = 0, right = chars.length - 1;
+        while (left < right) {
+            char temp = chars[left];
+            chars[left] = chars[right];
+            chars[right] = temp;
+            left++;
+            right--;
+        }
+        return new String(chars);
     }
 
     // Q2 — Count Vowels in a String
