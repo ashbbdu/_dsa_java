@@ -89,5 +89,7 @@ public class Concepts {
         System.out.println(list);
 
         System.out.println(list.size());
+
+
     }
 }
