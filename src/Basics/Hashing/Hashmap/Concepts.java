@@ -40,5 +40,28 @@ public class Concepts {
             System.out.println(val);
         }
 
+//        Freq count
+
+        System.out.println();
+
+        String st = "aabbcca";
+        Map <Character , Integer> hm = new HashMap<>();
+
+        for(char val : st.toCharArray()) {
+            hm.put(val , hm.getOrDefault(val , 0) + 1);
+        }
+
+        System.out.println(hm);
+
+        Map <Character , Integer> nm = new HashMap<>();
+        nm.put('a' , 3);
+        nm.put('b' , 2);
+        nm.put('c' , 2);
+
+        System.out.println(nm);
+
+        System.out.println(nm.equals(hm));
+
+
     }
 }
