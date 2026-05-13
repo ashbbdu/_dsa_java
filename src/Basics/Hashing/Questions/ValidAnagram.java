@@ -17,7 +17,27 @@ public class ValidAnagram {
         }
         return hm.equals(nm);
     }
+
+    public static boolean isAnagramOptimize(String s, String t) {
+
+        if(s.length() != t.length()) return false;
+        Map<Character , Integer> hm = new HashMap<>();
+        for(char val : s.toCharArray()) {
+            hm.put(val , hm.getOrDefault(val , 0) + 1);
+        }
+
+        for(char val : t.toCharArray()) {
+            hm.put(val , hm.getOrDefault(val , 0) - 1);
+        }
+
+        for(int h : hm.values()) {
+            if(h != 0) {
+                return false;
+            }
+        }
+        return true;
+    }
     public static void main(String[] args) {
-        System.out.println(isAnagram("anagram" , "nagaram"));
+        System.out.println(isAnagramOptimize("anagran" , "nagaraa"));
     }
 }
