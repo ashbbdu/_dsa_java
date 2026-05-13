@@ -57,10 +57,14 @@ public class Concepts {
         nm.put('a' , 3);
         nm.put('b' , 2);
         nm.put('c' , 2);
+        nm.put('d' , 10);
 
         System.out.println(nm);
 
         System.out.println(nm.equals(hm));
+
+
+
 
 
     }
