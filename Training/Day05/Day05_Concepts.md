@@ -211,7 +211,7 @@ Jab tak kuch aur na pucha jaaye, worst case hi batao.
 
 Ye problems Phase 1 se bachi thi. Aaj inhe karte hain.
 
-### Problem A — Check if Array is Sorted
+### Problem A — Check if Array is Sorted  ← LeetCode 896
 
 ```
 Input:  {1, 2, 3, 4, 5}  → true
@@ -224,7 +224,7 @@ Approach: Har adjacent pair check karo
 Time: O(n)   Space: O(1)
 ```
 
-### Problem B — Find Missing Number in [0..N]
+### Problem B — Find Missing Number in [0..N]  ← LeetCode 268
 
 ```
 Array mein 0 to n tak ke numbers hain but ek missing hai.
@@ -244,7 +244,7 @@ Approach 2: XOR trick
 Time: O(n)   Space: O(1)
 ```
 
-### Problem C — Single Number (XOR Trick)
+### Problem C — Single Number (XOR Trick)  ← LeetCode 136
 
 ```
 Array mein ek element sirf ek baar aata hai, baaki sab do baar.
@@ -260,7 +260,7 @@ Approach: Saare elements XOR karo → pairs cancel → sirf single bachta
 Time: O(n)   Space: O(1)
 ```
 
-### Problem D — Rotate Array by K Places
+### Problem D — Rotate Array by K Places  ← LeetCode 189
 
 ```
 Input:  arr = {1, 2, 3, 4, 5, 6, 7},  k = 3
@@ -293,15 +293,17 @@ Pattern 2: Slow-Fast (same side se start)
   Fast tezi se bhaagta hai
 
 Use cases:
-  - Palindrome check
-  - Two Sum in sorted array
-  - Remove duplicates
-  - Container with most water
-  - Trapping rainwater
+  - Palindrome check            → LC 125
+  - Two Sum in sorted array     → LC 167
+  - Remove duplicates           → LC 26
+  - Container with most water   → LC 11
+  - Move zeros                  → LC 283
+  - Trapping rainwater          → LC 42  (Phase 2 mein)
 ```
 
 ```java
 // Two Pointers — Palindrome Check (O(n), O(1) space)
+// LC 125: https://leetcode.com/problems/valid-palindrome/
 public static boolean isPalindrome(String s) {
     int left = 0, right = s.length() - 1;
 
@@ -314,7 +316,7 @@ public static boolean isPalindrome(String s) {
 }
 
 // Two Pointers — Two Sum in Sorted Array
-// Target dhundo, return indices
+// LC 167: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 public static int[] twoSumSorted(int[] arr, int target) {
     int left = 0, right = arr.length - 1;
 
@@ -352,6 +354,25 @@ Two Pointers (Preview):
   - Left-right pattern → palindrome, two sum sorted
   - Opposite ends → converge to center
 ```
+
+---
+
+## LeetCode Problems (aaj solve karo)
+
+| # | Problem | LeetCode Number | Difficulty |
+|---|---------|----------------|------------|
+| 1 | Check if Array is Monotonic | LC 896 | Easy |
+| 2 | Missing Number | LC 268 | Easy |
+| 3 | Single Number | LC 136 | Easy |
+| 4 | Rotate Array | LC 189 | Medium |
+| 5 | Valid Palindrome | LC 125 | Easy |
+| 6 | Two Sum II (sorted array) | LC 167 | Medium |
+| 7 | Remove Duplicates from Sorted Array | LC 26 | Easy |
+| 8 | Move Zeroes | LC 283 | Easy |
+| 9 | Container With Most Water | LC 11 | Medium |
+
+> LC 896 (Monotonic Array) slightly different hai — ascending ya descending dono check karta hai.
+> Tum Q6 (Check if Sorted) solve karo first, phir LC 896 submit karo — same logic.
 
 ---
 

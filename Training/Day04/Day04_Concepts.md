@@ -314,6 +314,21 @@ Problem milne pe teen sawal pucho:
 
 ---
 
+## LeetCode Problems (aaj solve karo)
+
+| # | Problem | LeetCode Link | Difficulty |
+|---|---------|--------------|------------|
+| LC 509  | Fibonacci Number | https://leetcode.com/problems/fibonacci-number/ | Easy |
+| LC 50   | Pow(x, n) — Fast Exponentiation | https://leetcode.com/problems/powx-n/ | Medium |
+| LC 344  | Reverse String (recursion se karo) | https://leetcode.com/problems/reverse-string/ | Easy |
+| LC 9    | Palindrome Number | https://leetcode.com/problems/palindrome-number/ | Easy |
+| LC 704  | Binary Search (Bonus Q15) | https://leetcode.com/problems/binary-search/ | Easy |
+
+> Print 1-N, Factorial, Sum to N, Count Digits, Reverse Number — ye LeetCode pe seedhe
+> available nahi hain (ye concept practice hain). Inhe practice file mein karo.
+
+---
+
 ## Self-Check Questions
 
 - [ ] Recursion mein base case kyun zaroori hai? Kya hoga agar nahi likha?

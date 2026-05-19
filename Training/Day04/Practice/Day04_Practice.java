@@ -38,7 +38,7 @@ public class Day04_Practice {
         return 0;
     }
 
-    // Q5 — Fibonacci (Naive Recursion)
+    // Q5 — Fibonacci (Naive Recursion)  ← LeetCode 509
     // fib(0)=0, fib(1)=1, fib(n) = fib(n-1) + fib(n-2)
     // Input:  n = 6
     // Output: 8   (0,1,1,2,3,5,8)
@@ -52,7 +52,7 @@ public class Day04_Practice {
     // PART B — RECURSION ON NUMBERS
     // ═══════════════════════════════════════════════
 
-    // Q6 — Power of a Number (Naive: O(N))
+    // Q6 — Power of a Number (Naive: O(N))  ← LeetCode 50 (Pow(x, n))
     // Input:  base=2, exp=10
     // Output: 1024
     // Hint: base^exp = base × base^(exp-1), base^0 = 1
@@ -90,7 +90,7 @@ public class Day04_Practice {
         return reversed;
     }
 
-    // Q10 — Check if a Number is a Palindrome using Recursion
+    // Q10 — Check if a Number is a Palindrome using Recursion  ← LeetCode 9
     // Input:  n = 121  → true
     // Input:  n = 123  → false
     // Hint: Reverse the number and compare with original
@@ -103,7 +103,7 @@ public class Day04_Practice {
     // PART C — RECURSION ON STRINGS/ARRAYS
     // ═══════════════════════════════════════════════
 
-    // Q11 — Reverse a String using Recursion (no StringBuilder)
+    // Q11 — Reverse a String using Recursion  ← LeetCode 344
     // Input:  s = "hello"
     // Output: "olleh"
     // Hint: last char + reverse(rest of string)
@@ -142,7 +142,7 @@ public class Day04_Practice {
         return Integer.MIN_VALUE;
     }
 
-    // Q15 — Binary Search using Recursion ← Bonus (ye Phase 2 mein aayega)
+    // Q15 — Binary Search using Recursion  ← LeetCode 704 (Bonus — Phase 2 preview)
     // Input:  arr = {1, 3, 5, 7, 9, 11},  target = 7
     // Output: 3  (index)
     // Hint: Check middle element

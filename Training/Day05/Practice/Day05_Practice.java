@@ -61,7 +61,7 @@ public class Day05_Practice {
     // PART B — ARRAYS (Pending from Phase 1)
     // ═══════════════════════════════════════════════
 
-    // Q6 — Check if Array is Sorted (Ascending)
+    // Q6 — Check if Array is Sorted (Ascending)  ← LeetCode 896
     // Input:  {1, 2, 3, 4, 5}  → true
     // Input:  {1, 3, 2, 5, 4}  → false
     // Hint: arr[i] > arr[i+1] mila toh not sorted
@@ -70,7 +70,7 @@ public class Day05_Practice {
         return false;
     }
 
-    // Q7 — Find Missing Number in [0..N]
+    // Q7 — Find Missing Number in [0..N]  ← LeetCode 268
     // Array mein 0 to n tak ke numbers hain but ek missing hai
     // Input:  {3, 0, 1}    → 2
     // Input:  {0, 1}       → 2
@@ -81,7 +81,7 @@ public class Day05_Practice {
         return -1;
     }
 
-    // Q8 — Single Number (XOR Trick) ← IMPORTANT
+    // Q8 — Single Number (XOR Trick)  ← LeetCode 136
     // Ek element sirf ek baar aata hai, baaki sab do baar
     // Input:  {4, 1, 2, 1, 2}  → 4
     // Input:  {2, 2, 1}        → 1
@@ -91,7 +91,7 @@ public class Day05_Practice {
         return 0;
     }
 
-    // Q9 — Rotate Array by K Places (Right Rotation)
+    // Q9 — Rotate Array by K Places (Right Rotation)  ← LeetCode 189
     // Input:  arr = {1, 2, 3, 4, 5, 6, 7},  k = 3
     // Output: {5, 6, 7, 1, 2, 3, 4}
     // Hint: Three-reverse trick
@@ -120,7 +120,7 @@ public class Day05_Practice {
     // PART C — TWO POINTERS (Intro Problems)
     // ═══════════════════════════════════════════════
 
-    // Q11 — Valid Palindrome (LeetCode 125)
+    // Q11 — Valid Palindrome  ← LeetCode 125
     // Only alphanumeric characters consider karo, ignore case
     // Input:  "A man, a plan, a canal: Panama"  → true
     // Input:  "race a car"                       → false
@@ -132,7 +132,7 @@ public class Day05_Practice {
         return false;
     }
 
-    // Q12 — Two Sum II (Sorted Array) — LeetCode 167
+    // Q12 — Two Sum II (Sorted Array)  ← LeetCode 167
     // Sorted array mein two numbers dhundo jinka sum = target
     // Return 1-indexed positions
     // Input:  {2, 7, 11, 15},  target = 9  → [1, 2]
@@ -146,7 +146,7 @@ public class Day05_Practice {
         return new int[]{};
     }
 
-    // Q13 — Remove Duplicates from Sorted Array in-place
+    // Q13 — Remove Duplicates from Sorted Array in-place  ← LeetCode 26
     // Sorted array mein duplicates remove karo, unique count return karo
     // Input:  {0, 0, 1, 1, 1, 2, 2, 3, 3, 4}
     // Output: 5  (array becomes {0, 1, 2, 3, 4, _, _, _, _, _})
@@ -157,7 +157,7 @@ public class Day05_Practice {
         return 0;
     }
 
-    // Q14 — Move Zeros to End (Two Pointer approach)
+    // Q14 — Move Zeros to End (Two Pointer approach)  ← LeetCode 283
     // Non-zero elements ka order maintain karo, zeros end mein le jao
     // Input:  {0, 1, 0, 3, 12}
     // Output: {1, 3, 12, 0, 0}
@@ -168,7 +168,7 @@ public class Day05_Practice {
 
     }
 
-    // Q15 — Container With Most Water (LeetCode 11) ← Classic
+    // Q15 — Container With Most Water  ← LeetCode 11
     // Bars ke beech mein max water store karna hai
     // Input:  height = {1, 8, 6, 2, 5, 4, 8, 3, 7}
     // Output: 49
