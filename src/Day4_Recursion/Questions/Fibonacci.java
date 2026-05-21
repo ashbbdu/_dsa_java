@@ -1,6 +1,6 @@
 package Day4_Recursion.Questions;
 
-public class Fibonnaci {
+public class Fibonacci {
 
     public static int fib (int n) {
         if (n == 0) return 0;
