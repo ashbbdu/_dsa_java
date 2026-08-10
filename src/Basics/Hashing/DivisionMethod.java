@@ -24,5 +24,6 @@ public class DivisionMethod {
             System.out.println(i + " " + hashTable[i]);
         }
 
+
     }
 }
