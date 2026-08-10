@@ -1,10 +1,12 @@
 package Basics.Hashing;
 
+import java.util.Collection;
+import java.util.Collections;
 import java.util.HashMap;
 
 public class HashMapHashing {
     public static void main(String[] args) {
-        int [] arr = {6,5,6,4,4,5,6};
+        int [] arr = {4, 4, 5, 5, 6};
 //        int [] hashArr = new int[7];
         HashMap<Integer , Integer> hm = new HashMap<>();
 
@@ -17,5 +19,8 @@ public class HashMapHashing {
         System.out.println(hm.get(6));
 //        System.out.println(hashArr[6]);
         System.out.println(hm);
+
+        System.out.println(Collections.max(hm.values()));
+
     }
 }
