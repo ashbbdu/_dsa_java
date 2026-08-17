@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class FindMissingNumber {
 
-    public static int findMissingNumber (int [] nums) {
+    public static int findMissingNumberBetter (int [] nums) {
         int [] hashArr = new int[nums.length + 1];
 
         for(int i = 0 ;  i < nums.length ; i++) {
@@ -23,6 +23,6 @@ public class FindMissingNumber {
 
     public static void main(String[] args) {
         int [] nums = {0, 1, 2, 4, 5, 6};
-        System.out.println(findMissingNumber(nums));
+        System.out.println(findMissingNumberBetter(nums));
     }
 }
